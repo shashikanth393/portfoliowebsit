@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #03045E;
+    color: #ffffff;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .logo img {
+    height: 40px; /* Set your preferred height for the logo */
+    /* Add any additional styles for the logo */
+  }
+  
+  .main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .main-menu li {
+    margin-left: 20px; /* Adjust the spacing between menu items */
+  }
+  
+  .main-menu li:first-child {
+    margin-left: 0; /* Remove margin for the first menu item */
+  }
+  
+  .main-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .main-menu a:hover {
+    background-color: #4CAF50; /* Add the vibrant green accent color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+  }
+  /* The rest of the CSS code remains unchanged */
+
+.logo img {
+    height: 40px; /* Set your preferred height for the logo */
+    /* Add any additional styles for the logo */
+  }
+/* The rest of the CSS code remains unchanged */
+
+/* Hero Section */
+.hero {
+    background-color: #023E8A;
+    color: #ffffff;
+    padding: 40px 0;
+  }
+  
+  .hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hero-content {
+    max-width: 60%;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #45A049; /* Slightly darker green on hover */
+    box-shadow: 0 4px 8px rgba(8, 224, 206, 0.922);
+  }
+  
+  .project-image img {
+    max-width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.265);
+  }
+    /* The rest of the CSS code remains unchanged */
+
+/* About Me Section */
+.about-me {
+    background-color: #0077B6;
+    padding: 80px 0;
+    color: white;
+  }
+  .profile-image {
+    width: 200px; /* Adjust the size of your profile image as needed */
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-me-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-me-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .about-me-content p {
+    font-size: 18px;
+  }
+  /* The rest of the CSS code remains unchanged */
+
+/* Contact Information Section */
+.contact {
+    background-color: #90E0EF;
+    color: #ffffff;
+    padding: 80px 0;
+  }
+  
+  .contact .container {
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: white; /* Use the vibrant green accent color for the heading */
+  }
+  
+  .contact-details {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contact-item {
+    text-align: center;
+    width: 250px;
+  }
+  
+  .contact-item .icon {
+    font-size: 24px;
+    margin-bottom: 15px;
+    display: inline-block;
+  }
+  
+  .contact-item p {
+    font-size: 18px;
+  }
+  
+  /* You can add additional styles for the icons, if required */
+  /* The rest of the CSS code remains unchanged */
+
+/* Work Experience Section */
+.work-experience {
+    background-color: #48CAE4;
+    color: white;
+    padding: 80px 0;
+  }
+  
+  .work-experience .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .work-experience h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: white; /* Use the vibrant green accent color for the heading */
+  }
+  
+  .job-entry {
+    margin-bottom: 40px;
+  }
+  
+  .job-entry h3 {
+    font-size: 24px;
+  }
+  
+  .job-entry .company {
+    font-size: 18px;
+    color: white; /* A muted color for the company name */
+  }
+  
+  .job-entry .duration {
+    font-size: 16px;
+    color: white; /* A slightly lighter color for the duration */
+  }
+  
+  .job-entry ul {
+    list-style: disc;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  
+  .job-entry li {
+    font-size: 16px;
+  }
+  /* The rest of the CSS code remains unchanged */
+
+/* Resume/CV Section */
+.resume {
+    background-color: #0096C7;
+    padding: 80px 0;
+    color: #ffffff;
+  }
+  
+  .resume .container {
+    text-align: center;
+  }
+  
+  .resume h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: white; /* Use the vibrant green accent color for the heading */
+  }
+  
+  .resume-description {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .download-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .download-button:hover {
+    background-color: #45A049; /* Slightly darker green on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  /* The rest of the CSS code remains unchanged */
+
+/* Skills and Expertise Section */
+.skills {
+    background-color: #00B4D8;
+    padding: 80px 0;
+    color: white;
+  }
+  
+  .skills .container {
+    text-align: center;
+  }
+  
+  .skills h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: white; /* Use the vibrant green accent color for the heading */
+  }
+  
+  .skills-list {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .skills-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  /* The rest of the CSS code remains unchanged */
+
+/* Footer Section */
+footer {
+    background-color: #121212;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
+  .footer-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-menu li {
+    display: inline-block;
+    margin-right: 15px; /* Adjust the spacing between menu items */
+  }
+  
+  .footer-menu li:last-child {
+    margin-right: 0; /* Remove margin for the last menu item */
+  }
+  
+  .footer-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  .footer-menu a:hover {
+    color: #4CAF50; /* Use the vibrant green accent color on hover */
+  }
+  
